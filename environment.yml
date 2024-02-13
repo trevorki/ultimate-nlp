@@ -1,0 +1,23 @@
+# conda env create --file environment.yml
+name: 'ulti'
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  
+  ## uncomment for use with Jupyter
+  - ipykernel
+  - ipywidgets
+  - nb_conda_kernels
+  - nbformat
+  - scrapy
+
+  ## PyPI packages
+  - pip: 
+    - tensorflow-cpu
+    - transformers
+    - evaluate
+    - scikit-learn
+    - zstandard
+    - huggingface-hub
+    - seqeval
