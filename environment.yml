@@ -21,3 +21,4 @@ dependencies:
     - zstandard
     - huggingface-hub
     - seqeval
+    - beautifulsoup4
