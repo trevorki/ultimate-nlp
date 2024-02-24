@@ -11,3 +11,5 @@ zstandard
 python-dotenv
 datasets
 seqeval
+peft
+trl
